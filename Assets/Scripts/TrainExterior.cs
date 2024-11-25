@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class TrainExterior : MonoBehaviour
 {
-    [SerializeField] private float accelerationForce = 10f;
+    [SerializeField] private float accelerationForce = 15f;
 
     private void OnTriggerStay(Collider other)
     {
